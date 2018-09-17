@@ -1,0 +1,74 @@
+/*-----------------------SECTION ONE------------------------------*/
+.arrow {
+  color: $color-standardGreen;
+  font-size: 100px;
+  border:0;
+  background: none;
+}
+#sectionOne {
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,
+          rgba(245,245,245,1) 47%, rgba(237,237,237,1) 78%, rgba(237,237,237,1) 100%);
+
+}
+.seeMore {
+  text-align: center;
+  padding: 10px;
+  background-color: $color-standardGreen;
+  border-radius: 10px;
+  font-size: 20px;
+  border: 0;
+  margin: auto;
+  color: white;
+  font-weight: 800;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  margin-bottom: 20px;
+}
+p {
+  text-align: center;
+}
+.windowMore {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.more {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+//---------------------------------------------------------
+
+#clair, #margarita {
+  &:hover {
+    opacity: 0;
+  }
+}
+.slider {
+  ul {
+    list-style: none;
+  }
+}
+
+.slider {
+  .chair {
+    display: none;
+  }
+}
+
+.slider {
+  .visible{
+    display: inline-block;
+  }
+}
+.thingToSit {
+  width: 337px;
+  height: 337px;
+
+}

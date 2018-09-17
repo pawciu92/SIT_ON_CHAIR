@@ -1,0 +1,42 @@
+/*---------------------SECTION TWO---------------------*/
+
+.windows {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px 0;
+  flex-wrap: wrap;
+
+}
+.thirdWindow {
+  text-align: left;
+  border: 1px solid silver;
+  height: 300px;
+  width: 400px;
+  color: silver;
+  padding: 15px;
+}
+#thirdWindowTitle {
+  color: black;
+}
+.greenUnderline {
+  width: 200px;
+  height: 7px;
+  background-color: $color-standardGreen;
+}
+.paragraph {
+  text-align: justify;
+}
+.chairName {
+  height: 60px;
+  width: 330px;
+  position: absolute;
+  margin-top: -80px;
+  background-color: rgba(255,255,255,0.3) ;
+}
+.title {
+  margin-left: 10px;
+}
+h4 {
+  margin-top: 15px;
+}

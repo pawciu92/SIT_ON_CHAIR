@@ -1,0 +1,26 @@
+footer {
+  height: 60px;
+
+ }
+.foot {
+  display: flex;
+  justify-content: space-between;
+  color: silver;
+}
+.logos {
+  display: flex;
+}
+#SitOnChair {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#SitOnChair span {
+  font-weight: 900;
+}

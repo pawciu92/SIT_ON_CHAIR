@@ -1,0 +1,66 @@
+/*----------------------------SECTION FOUR------------------------------*/
+
+#sectionFour{
+  padding: 30px;
+  margin-bottom: 25px;
+  background: #F1F1F1;
+}
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 350px;
+}
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 60px;
+}
+::-webkit-input-placeholder {
+  color: silver;
+}
+#confirm {
+  display: flex;
+  color: silver;
+}
+#confirm p {
+  text-align: left;
+}
+
+.redChair {
+  text-align: center;
+}
+
+textarea {
+  border: 1px solid $color-standardGreen;
+  width: 600px;
+  resize: none;
+}
+
+input[type="text"],
+input[type="email"]{
+  height: 50px;
+  width: 600px;
+  font-size: 30px;
+  border: 1px solid $color-standardGreen;
+}
+
+input[type="checkbox"] {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+}
+
+.sent {
+  width: 350px;
+  text-align: center;
+  padding: 10px;
+  background-color: $color-standardGreen;
+  border-radius: 10px;
+  font-size: 20px;
+  border: 0;
+  margin: auto;
+  color: white;
+  font-weight: 800;
+}
