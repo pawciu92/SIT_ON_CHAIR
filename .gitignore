@@ -1,8 +1,6 @@
 .idea
 *.*~
 node_modules
-js
 package.json
 package-lock.json
-car_front.html
-webpack.config.js
+gulpfile.js
