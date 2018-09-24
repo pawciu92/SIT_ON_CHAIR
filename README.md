@@ -1,4 +1,3 @@
-# DEMO
 # https://pawciu92.github.io/SIT_ON_CHAIR/
 
 # SIT_ON_CHAIR
